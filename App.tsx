@@ -1,20 +1,10 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from "expo-status-bar";
+import { StyleSheet, Text, View } from "react-native";
+
+import Fonts from "./assets/fonts/AccessFonts";
+import { JeikuDevvv } from "./src/components/brand/JeikuDevvv";
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Jeiku me</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+  if (!Fonts()) return null;
+  return <JeikuDevvv />;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
