@@ -1,7 +1,7 @@
 import React from "react";
-import { Dimensions, Platform, StyleSheet, Text, View } from "react-native";
+import { Platform, StyleSheet, Text, View } from "react-native";
 
-export const FormHeader = (props: any) => {
+export const HeaderText = (props: any) => {
   return (
     <>
       <View style={[props.style, styles.container]}>

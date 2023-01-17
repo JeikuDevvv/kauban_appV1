@@ -5,7 +5,7 @@ import { styles } from "./styles/LandingStyles";
 import { GradientBackground } from "../../components/container/GradientBackground";
 import { JeikuDevvv } from "../../components/brand/JeikuDevvv";
 import { Logo } from "../../components/brand/Logo";
-import { FormHeader } from "../../components/FormHeader";
+import { HeaderText } from "../../components/HeaderText";
 import { PrimaryButton } from "../../components/buttons/PrimaryButton";
 
 const LandingScreen = () => {
@@ -16,7 +16,7 @@ const LandingScreen = () => {
           <JeikuDevvv style={styles.jeikuStyles} />
           <Logo style={styles.jeikuStyles} />
           {/* ------ */}
-          <FormHeader
+          <HeaderText
             rightHeading={"Welcome "}
             leftHeading={"to Kauban App"}
             taglineHeading={"collaboration | innovation | socialization"}

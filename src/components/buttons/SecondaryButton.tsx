@@ -11,12 +11,12 @@ import {
   widthPercentageToDP,
 } from "react-native-responsive-screen";
 
-export const PrimaryButton = (props: any) => {
+export const SecondaryButton = (props: any) => {
   return (
     <View style={props.style}>
       <TouchableOpacity
         style={styles.ButtonContainer}
-        onPress={() => console.log("Primary Button")}
+        onPress={() => console.log("Secondary Button")}
       >
         <Text style={styles.buttonText}>{props.buttonName}</Text>
       </TouchableOpacity>
@@ -30,13 +30,13 @@ const styles = StyleSheet.create({
     height: heightPercentageToDP(4),
     borderStyle: "solid",
     borderRadius: 15,
-    backgroundColor: "#82AAE3",
+    backgroundColor: "rgba(130, 170, 227, 0.3)",
     alignItems: "center",
     justifyContent: "center",
     flexDirection: "row",
   },
   buttonText: {
     fontFamily: "Poppins-Medium",
-    color: "white",
+    color: "#468DF2",
   },
 });
