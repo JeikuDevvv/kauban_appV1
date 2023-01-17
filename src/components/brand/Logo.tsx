@@ -11,7 +11,9 @@ export const Logo = (props: any) => {
   return (
     <View style={props.style}>
       <View style={props.style}>
-        <Image source={require("../../assets/img/logo/kauban_app_logo.png")} />
+        <Image
+          source={require("../../../assets/img/logo/kauban_app_logo.png")}
+        />
       </View>
     </View>
   );
