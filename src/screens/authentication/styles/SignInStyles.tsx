@@ -11,4 +11,9 @@ export const styles = StyleSheet.create({
     width: Dimensions.get("screen").width,
     height: Dimensions.get("screen").height,
   },
+  /* Body Style */
+  svgCurve: {
+    position: "absolute",
+    width: Dimensions.get("screen").width,
+  },
 });
