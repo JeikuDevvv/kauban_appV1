@@ -8,14 +8,22 @@ import React from "react";
 import { Text, View, StyleSheet, Platform } from "react-native";
 
 export const JeikuDevvv = (props: any) => {
+  interface props {
+    fontColor: string;
+  }
+
   return (
     <View style={[props.style, { alignItems: "center" }]}>
-      <Text style={styles.textStyles}>{"J { dev. }"}</Text>
-      <Text style={styles.textStyles}>ジェイク・デヴ</Text>
+      <Text style={[styles.textStyles, { color: props.fontColor }]}>
+        {"J { dev. }"}
+      </Text>
+      <Text style={[styles.textStyles, { color: props.fontColor }]}>
+        ジェイク・デヴ
+      </Text>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
-  textStyles: { fontFamily: "Poppins-Bold" },
+  textStyles: { fontFamily: "Poppins-Bold", color: "black" },
 });
