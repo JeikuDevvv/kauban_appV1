@@ -10,23 +10,24 @@ import { JeikuDevvv } from "./brand/JeikuDevvv";
 export const AuthFooter = (props: any) => {
   return (
     <View style={props.style}>
-      <JeikuDevvv fontColor={"rgba(0, 0, 0, 0.5)"} />
+      <JeikuDevvv fontColor={"rgba(0, 0, 0, 0.2)"} />
       <View
         style={{
           borderTopWidth: 1,
           width: Dimensions.get("screen").width,
           alignItems: "center",
           padding: "1%",
+          borderColor: "rgba(0, 0, 0, 0.5)",
         }}
       >
         <Text
           style={{
             fontFamily: "Poppins-Medium",
             fontSize: 12,
-            color: "rgba(0, 0, 0, 0.5)",
+            color: "rgba(0, 0, 0, 0.2)",
           }}
         >
-          Already have an account?
+          Already have an account
         </Text>
       </View>
     </View>

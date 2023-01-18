@@ -1,10 +1,12 @@
-import { View, Text } from "react-native";
+import { View, Text, TouchableOpacity } from "react-native";
 import React from "react";
 
 const SignUpScreen = () => {
   return (
     <View>
-      <Text>SignUpScreen</Text>
+      <TouchableOpacity>
+        <Text>SignUpScreen</Text>
+      </TouchableOpacity>
     </View>
   );
 };
