@@ -7,7 +7,7 @@ import { WavyHeader } from "../../components/WavyHeader";
 import { TextInputField } from "../../components/input_fields/TextInputField";
 import { PrimaryButton } from "../../components/buttons/PrimaryButton";
 
-const SignUpStyles = () => {
+const SignUpScreen = () => {
   const [value, setValue] = React.useState({
     firstname: "",
     lastname: "",
@@ -53,4 +53,4 @@ const SignUpStyles = () => {
   );
 };
 
-export default SignUpStyles;
+export default SignUpScreen;

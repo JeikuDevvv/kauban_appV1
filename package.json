@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@react-native-firebase/app": "^16.5.0",
+    "@react-navigation/native": "^6.1.2",
+    "@react-navigation/stack": "^6.3.11",
     "eslint": "^8.32.0",
     "eslint-plugin-react-native": "^4.0.0",
     "expo": "~47.0.12",
